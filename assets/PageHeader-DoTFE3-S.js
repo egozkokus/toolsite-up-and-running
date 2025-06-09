@@ -1,0 +1,6 @@
+import{c as m,u as n,j as s}from"./index-CjcMs8T3.js";import{B as i}from"./button-7J-vtqLr.js";import{L as o}from"./LanguageSelector-rksu09Oh.js";import{A as x}from"./arrow-left-Cqdtw2X2.js";/**
+ * @license lucide-react v0.462.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const d=m("House",[["path",{d:"M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8",key:"5wwlr5"}],["path",{d:"M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z",key:"1d0kgt"}]]),p=({title:c,subtitle:e,icon:a,backPath:r,backLabel:l})=>{const t=n();return s.jsxs("div",{className:"mb-8",children:[s.jsxs("div",{className:"flex items-center justify-between mb-6",children:[s.jsxs("div",{className:"flex space-x-2",children:[r&&s.jsxs(i,{onClick:()=>t(r),variant:"outline",size:"sm",children:[s.jsx(x,{className:"h-4 w-4 mr-2"}),l||"חזרה"]}),s.jsxs(i,{onClick:()=>t("/"),variant:"outline",size:"sm",children:[s.jsx(d,{className:"h-4 w-4 mr-2"}),"דף הבית"]})]}),s.jsx(o,{})]}),s.jsxs("div",{className:"text-center",children:[a&&s.jsx("div",{className:"mb-4",children:a}),s.jsx("h1",{className:"text-4xl font-bold mb-2",children:c}),e&&s.jsx("p",{className:"text-gray-600",children:e})]})]})};export{p as P};
